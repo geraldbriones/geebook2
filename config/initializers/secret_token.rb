@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Geebook2::Application.config.secret_token = 'eb18ce70b8f71abea84ba1dd8eb2c709becc602918bad79cd106d33c45cb7e0f1b7615b53365826d25e9e6fd594d355b6e6b042816aa3e67222b04002e48f17d'
+Treebook::Application.config.secret_token = '33556d6265e114f2a48ffc4d185dd9e27b33c4a43fb007bf48f0fbb1c7c2bc41b457aa0e95bd82449e5f85b5f6798690acc9c10e5eb512409cbb670d82d47fc5'

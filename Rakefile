@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Geebook2::Application.load_tasks
+Treebook::Application.load_tasks

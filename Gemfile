@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '3.2.6'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -8,20 +8,20 @@ gem 'rails', '3.2.13'
 gem 'devise'
 gem 'simple_form'
 gem 'state_machine'
-gem 'draper'
+gem 'draper', '~> 1.0'
 gem 'js-routes'
 
 group :test do
   gem 'shoulda'
-  gem 'factory_girl'
+  gem 'factory_girl_rails'
 end
 
 group :development, :test do
-  gem 'sqlite3'
+	gem 'sqlite3'
 end
 
 group :production do
-  gem 'pg' # For compatibility with Heroku
+	gem "pg"
 end
 
 # Gems used only for assets and not required
